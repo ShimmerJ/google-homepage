@@ -1,0 +1,125 @@
+* {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  position: absolute;
+  right: 20px;
+  top: 20px
+}
+
+#signin {
+  padding: 7px 12px 7px 12px;
+  font-weight: bold;
+  color: white;
+  background-color: #3F96ED;
+  border-radius: 2px;
+}
+
+#apps {
+  height: 17px;
+  width: 17px;
+}
+
+.google {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 650px;
+}
+
+.search input {
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 0 1px 2px 0px hsl(0, 0%, 80%);
+  height: 40px;
+  width: 550px;
+  color: black;
+  font-size: 130%;
+}
+
+.search input:hover {
+  box-shadow: 0 2px 3px 1px hsl(0, 0%, 80%);
+}
+.search input:focus {
+  outline: none;
+}
+
+.mic {
+  position: relative;
+  float: right;
+  right: 75px;
+  top: 7px;
+}
+
+.mic img {
+  height: 30px;
+  width: 30px;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.buttons input {
+  padding: 10px 15px;
+  font-weight: bold;
+  background-color: rgb(242, 242, 242);
+  margin-right: 7px;
+  border-radius: 2px;
+}
+
+.buttons input:hover {
+  border: 1px solid rgb(175, 172, 172);
+  color: rgb(0,0,0);
+}
+
+.buttons input:focus {
+  outline: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  border-top: 1px solid hsl(0, 0%, 80%);
+  background-color: rgb(242, 242, 242);
+  height: 40px;
+  width: 100%;
+}
+
+.footer-l {
+  position: fixed;
+  left: 20px;
+  padding-top: 12px;
+}
+
+.footer-r {
+  position: fixed;
+  right: 20px;
+  padding-top: 12px;
+}
